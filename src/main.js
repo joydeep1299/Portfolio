@@ -136,7 +136,7 @@ filterSelect.addEventListener("change", () => {
                                                 </div>
                                             </div>
                                             <!-- Project image -->
-                                            <img src="${workData.works[i].image}" alt="" loading="lazy">
+                                            <img src="${workData.works[i].image}" alt="Work" loading="lazy">
                                             <div class="footer">
                                                 <a href="${workData.works[i].liveLink}" class="see-live" target="_blank">
                                                     <div class="red-dot"></div>

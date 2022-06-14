@@ -144,8 +144,7 @@ filterSelect.addEventListener("change", () => {
                                                         <div class="red-dot"></div>
                                                         <p>See Live</p>
                                                     </a>
-                                                    <a href="${workData.works[i].codeLink}" class="code" target="_blank">&lt;/&gt; Code</a>
-                                                </div>
+                                                    <a href="${workData.works[i].codeLink}" class="code" target="_blank">&lt;/&gt; ${workData.works[i].btn[0]}</a>
                                             </div>
                                             <!-- Project Tags -->
                                         </div>

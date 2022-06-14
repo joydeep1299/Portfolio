@@ -774,6 +774,21 @@ footer p span {
   .my-services .card {
     width: 330px;
   }
+  .card .body-text {
+    font-size: 1rem;
+  }
+  .card .middle h4 {
+    font-size: 1rem;
+  }
+  .card .middle p{
+    font-size: 1rem;
+  }
+  .tools h4  {
+    font-size: 1rem;
+  }
+  .tools ul li{
+    font-size: 1rem;
+  }
   #about .container {
     width: 70%;
   }
