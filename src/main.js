@@ -120,9 +120,9 @@ filterSelect.addEventListener("change", () => {
             let html = document.querySelector(".works-container");
 
             if (filterValue == "all") {
-               window.location.href= "./pages/works.html"
+                window.location.href = "./pages/works.html"
             }
-            else {
+            else if (workData.works[i].dataFilter == filterValue) {
                 //  template for the card items
                 html.innerHTML += `
                     <div class="card" data-filter="${workData.works[i].dataFilter}">
