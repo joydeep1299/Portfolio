@@ -142,7 +142,7 @@ filterSelect.addEventListener("change", () => {
                                                     <div class="red-dot"></div>
                                                     <p>See Live</p>
                                                 </a>
-                                                <a href="${workData.works[i].codeLink}" class="code" target="_blank">&lt;/&gt; Code</a>
+                                                <a href="${workData.works[i].codeLink}" class="code" target="_blank">&lt;/&gt; ${workData.works[i].btn[0]}</a>
                                             </div>
                                         </div>
                                         <!-- Project Tags -->
@@ -172,16 +172,17 @@ function bodyAnimation() {
     )
 }
 function underlineAnimation() {
-    return new Promise(res => {
-        signatureUnderline.style.strokeDashoffset = 0;
-    }
-    )
+    setTimeout(() => {
+        return new Promise(res => {
+            signatureUnderline.style.strokeDashoffset = 0;
+        }
+        )
+    }, 1000);
+
 }
 
 bodyAnimation()
-    .then(setTimeout(() => {
-        underlineAnimation()
-    }, 500))
+    .then(underlineAnimation)
 
 
 

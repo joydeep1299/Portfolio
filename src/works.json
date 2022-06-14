@@ -1,152 +1,63 @@
 {
     "works": [
         {
-            "title": "name",
-            "image": "./images/",
-            "liveLink": "",
-            "codeLInk": "",
-            "dataFilter": "htmlcss",
+            "title": "Paralax Effect",
+            "image": "./images/paralax.gif",
+            "liveLink": "https://joydeep1299.github.io/paralax/",
+            "codeLink": "https://github.com/joydeep1299/paralax",
+            "dataFilter": "htmlcssjs",
             "btn": [
                 "Code"
             ]
         },
         {
-            "title": "name",
-            "image": "./images/",
-            "liveLink": "",
-            "codeLInk": "",
-            "dataFilter": "htmlcss",
+            "title": "Gym website Landing page",
+            "image": "./images/gym-website.gif",
+            "liveLink": "https://joydeep1299.github.io/Gym-Website-Landing-Page/",
+            "codeLink": "https://github.com/joydeep1299/Gym-Website-Landing-Page",
+            "dataFilter": "htmlcssjs",
             "btn": [
                 "Design"
             ]
         },
         {
-            "title": "name",
-            "image": "./images/",
-            "liveLink": "",
-            "dataFilter": "htmlcss",
+            "title": "My Portfolio UI Design",
+            "image": "./images/portfolio-ui.jpg",
+            "liveLink": "https://www.figma.com/file/NOD4AKYdpyJxvehxUU19Nt/portfolio-(Copy)?node-id=0%3A1",
+            "codeLink": "./images/portfolio-ui-full.jpg",
+            "dataFilter": "ui",
             "btn": [
-                "Code"
+                "View Full Image"
             ]
         },
         {
-            "title": "name",
-            "image": "./images/",
-            "liveLink": "",
-            "codeLInk": "",
-            "dataFilter": "htmlcss",
+            "title": "My Portfolio UI Design",
+            "image": "./images/portfolio-ui.jpg",
+            "liveLink": "https://www.figma.com/file/NOD4AKYdpyJxvehxUU19Nt/portfolio-(Copy)?node-id=0%3A1",
+            "codeLink": "./images/portfolio-ui-full.jpg",
+            "dataFilter": "ui",
             "btn": [
-                "Code"
-            ] 
-        },
-        {
-            "title": "name",
-            "image": "./images/",
-            "liveLink": "",
-            "codeLInk": "",
-            "dataFilter": "htmlcss",
-            "btn": [
-                "Code"
+                "View Full Image"
             ]
         },
         {
-            "title": "name",
-            "image": "./images/",
-            "liveLink": "",
-            "codeLInk": "",
-            "dataFilter": "htmlcss",
+            "title": "My Portfolio UI Design",
+            "image": "./images/portfolio-ui.jpg",
+            "liveLink": "https://www.figma.com/file/NOD4AKYdpyJxvehxUU19Nt/portfolio-(Copy)?node-id=0%3A1",
+            "codeLink": "./images/portfolio-ui-full.jpg",
+            "dataFilter": "ui",
             "btn": [
-                "Code"
+                "View Full Image"
             ]
         },
         {
-            "title": "name",
-            "image": "./images/",
-            "liveLink": "",
-            "codeLInk": "",
-            "dataFilter": "htmlcss",
+            "title": "My Portfolio UI Design",
+            "image": "./images/portfolio-ui.jpg",
+            "liveLink": "https://www.figma.com/file/NOD4AKYdpyJxvehxUU19Nt/portfolio-(Copy)?node-id=0%3A1",
+            "codeLink": "./images/portfolio-ui-full.jpg",
+            "dataFilter": "ui",
             "btn": [
-                "Code"
-            ]
-        },
-        {
-            "title": "name",
-            "image": "./images/",
-            "liveLink": "",
-            "codeLInk": "",
-            "dataFilter": "htmlcss",
-            "btn": [
-                "Code"
-            ]
-        },
-        {
-            "title": "name",
-            "image": "./images/",
-            "liveLink": "",
-            "codeLInk": "",
-            "dataFilter": "htmlcss",
-            "btn": [
-                "Code"
-            ]
-        },
-        {
-            "title": "name",
-            "image": "./images/",
-            "liveLink": "",
-            "codeLInk": "",
-            "dataFilter": "htmlcss",
-            "btn": [
-                "Code"
-            ]
-        },
-        {
-            "title": "name",
-            "image": "./images/",
-            "liveLink": "",
-            "codeLInk": "",
-            "dataFilter": "htmlcss",
-            "btn": [
-                "Code"
-            ]
-        },
-        {
-            "title": "name",
-            "image": "./images/",
-            "liveLink": "",
-            "codeLInk": "",
-            "dataFilter": "htmlcss",
-            "btn": [
-                "Code"
-            ]
-        },
-        {
-            "title": "name",
-            "image": "./images/",
-            "liveLink": "",
-            "codeLInk": "",
-            "dataFilter": "htmlcss",
-            "btn": [
-                "Code"
-            ]
-        },
-        {
-            "title": "name",
-            "image": "./images/",
-            "liveLink": "",
-            "codeLInk": "",
-            "dataFilter": "htmlcss",
-            "btn": [
-                "Code"
-            ]
-        },
-        {
-            "title": "name",
-            "image": "./images/",
-            "liveLink": "",
-            "codeLInk": "",
-            "dataFilter": "htmlcss",
-            "btn": [
-                "Code"
+                "View Full Image"
             ]
         }
     ]

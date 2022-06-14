@@ -83,13 +83,13 @@ function addWorkToHtml(data) {
                                     </div>
                                 </div>
                                 <!-- Project image -->
-                                <img src="${data.works[i].image}" alt="" loading="lazy">
+                                <img src=".${data.works[i].image}" alt="" loading="lazy">
                                 <div class="footer">
                                     <a href="${data.works[i].liveLink}" class="see-live" target="_blank">
                                         <div class="red-dot"></div>
                                         <p>See Live</p>
                                     </a>
-                                    <a href="${data.works[i].codeLink}" class="code" target="_blank">&lt;/&gt; Code</a>
+                                    <a href=".${data.works[i].codeLink}" class="code" target="_blank">&lt;/&gt; ${data.works[i].btn[0]}</a>
                                 </div>
                             </div>
                             <!-- Project Tags -->
@@ -114,7 +114,6 @@ filterSelect.addEventListener("change", () => {
     workItem.innerHTML = ""
 
     // adding item based on filter value
-
     if (filterValue == "all") {
         addWorkDataToScreen();
     } else {
@@ -139,7 +138,7 @@ filterSelect.addEventListener("change", () => {
                                                     </div>
                                                 </div>
                                                 <!-- Project image -->
-                                                <img src="${workData.works[i].image}" alt="" loading="lazy">
+                                                <img src=".${workData.works[i].image}" alt="" loading="lazy">
                                                 <div class="footer">
                                                     <a href="${workData.works[i].liveLink}" class="see-live" target="_blank">
                                                         <div class="red-dot"></div>
@@ -156,6 +155,4 @@ filterSelect.addEventListener("change", () => {
         };
         filterData();
     }
-
-
 });
