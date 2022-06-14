@@ -119,7 +119,10 @@ filterSelect.addEventListener("change", () => {
         for (let i = 0; i < workData.works.length; i++) {
             let html = document.querySelector(".works-container");
 
-            if (workData.works[i].dataFilter == filterValue) {
+            if (filterValue == "all") {
+               window.location.href= "./pages/works.html"
+            }
+            else {
                 //  template for the card items
                 html.innerHTML += `
                     <div class="card" data-filter="${workData.works[i].dataFilter}">
