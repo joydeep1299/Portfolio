@@ -161,32 +161,35 @@ filterSelect.addEventListener("change", () => {
 /* 
 Signature Animation
 */
-let signatureBody = document.querySelector(".signature-body")
-let signatureUnderline = document.querySelector(".signature-underline")
-let signatureDot = document.querySelector(".signature-dot")
+let signatureBody = document.querySelector("#signature_body");
+let signatureUnderline = document.querySelector("#signature_underline");
+let signatureDot = document.querySelector("#signature_dot");
 
-function bodyAnimation() {
-    return new Promise(res => {
+function signatureAnimationStart() {
+    return new Promise(resolve => {
+        signatureBody.style.display = "block";
+        signatureUnderline.style.display = "block";
+        signatureDot.style.display = "block";
+        resolve();
+    });
+};
+
+function signatureAnimationEnd() {
+    return new Promise(resolve => {
         setTimeout(() => {
-            signatureBody.style.transition = `1s`
-            signatureBody.style.strokeDashoffset = 0;
-        }, 500);
-    }
-    )
-}
-function underlineAnimation() {
-    setTimeout(() => {
-        return new Promise(res => {
-            signatureUnderline.style.strokeDashoffset = 0;
-        }
-        )
-    }, 1000);
-
-}
-
-bodyAnimation()
-    .then(underlineAnimation)
+            signatureBody.style.display = "none";
+            signatureUnderline.style.display = "none";
+            signatureDot.style.display = "none";
+        }, 2500);
+    });
+};
 
 
+async function signatureAnimation(){
+    await signatureAnimationStart();
+    await signatureAnimationEnd();
+};
 
-//539.4288330078125
+setInterval(() => {
+    signatureAnimation();
+}, 3000);
