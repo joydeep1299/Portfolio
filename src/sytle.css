@@ -250,6 +250,15 @@ a {
   border-radius: 8px;
   box-shadow: 2px 2px 15px -5px rgba(0, 0, 0, 0.5);
 }
+.my-services .card-one {
+  order: 3;
+}
+.my-services .card-two {
+  order: 1;
+}
+.my-services .card-three {
+  order: 2;
+}
 .card .icon {
   width: 80px;
   margin: 10px;
@@ -862,6 +871,15 @@ footer p span {
   .my-services .services-container {
     width: 80%;
     margin: 0 auto;
+  }
+  .my-services .card-one {
+    order: 1;
+  }
+  .my-services .card-two {
+    order: 2;
+  }
+  .my-services .card-three {
+    order: 3;
   }
   .card .title {
     font-size: 1.5rem;
