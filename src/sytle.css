@@ -260,7 +260,7 @@ a {
   font-size: 1.75rem;
 }
 .card .body-text {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5;
   margin: 20px 0px 50px;
   color: var(--color-gray);
@@ -271,12 +271,12 @@ a {
 }
 .card .middle h4 {
   font-family: var(--font-Michroma);
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   color: var(--color-primary);
   margin-bottom: 10px;
 }
 .card .middle p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5;
   margin: 20px 0px 50px;
   color: var(--color-gray);
@@ -286,13 +286,13 @@ a {
 }
 .tools h4 {
   font-family: var(--font-Michroma);
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   color: var(--color-primary);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .tools ul li {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 10px 0px;
   color: var(--color-gray);
 }
@@ -784,21 +784,6 @@ footer p span {
   }
   .my-services .card {
     width: 330px;
-  }
-  .card .body-text {
-    font-size: 1rem;
-  }
-  .card .middle h4 {
-    font-size: 1rem;
-  }
-  .card .middle p {
-    font-size: 1rem;
-  }
-  .tools h4 {
-    font-size: 1rem;
-  }
-  .tools ul li {
-    font-size: 1rem;
   }
   #about .container {
     width: 70%;
