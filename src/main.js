@@ -185,7 +185,7 @@ function signatureAnimationEnd() {
 };
 
 
-async function signatureAnimation(){
+async function signatureAnimation() {
     await signatureAnimationStart();
     await signatureAnimationEnd();
 };
@@ -193,3 +193,12 @@ async function signatureAnimation(){
 setInterval(() => {
     signatureAnimation();
 }, 3000);
+
+
+
+/* 
+Preloader
+*/
+window.addEventListener("load", setTimeout(() => {
+    document.querySelector("#preloader").style.display = "none";
+}, 1500))
