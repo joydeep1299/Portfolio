@@ -6,6 +6,7 @@
             "liveLink": "https://joydeep1299.github.io/Paralax/",
             "codeLink": "https://github.com/joydeep1299/paralax",
             "dataFilter": "htmlcssjs",
+            "pageTitle":"HTML Webpages",
             "btn": [
                 "Code"
             ]
@@ -16,6 +17,7 @@
             "liveLink": "https://joydeep1299.github.io/Gym-Website-Landing-Page/",
             "codeLink": "https://github.com/joydeep1299/Gym-Website-Landing-Page",
             "dataFilter": "htmlcssjs",
+            "pageTitle":"HTML Webpages",
             "btn": [
                 "Design"
             ]
@@ -27,6 +29,7 @@
             "liveLink": "https://joydeep1299.github.io/Indoor-plants/",
             "codeLink": "https://github.com/joydeep1299/Indoor-plants",
             "dataFilter": "htmlbootstrapjs",
+            "pageTitle":"Bootstrap Webpages",
             "btn": [
                 "Code"
             ]
@@ -37,6 +40,7 @@
             "liveLink": "https://www.figma.com/file/NOD4AKYdpyJxvehxUU19Nt/portfolio-(Copy)?node-id=0%3A1",
             "codeLink": "./images/portfolio-ui-full.jpg",
             "dataFilter": "ui",
+            "pageTitle":"UI UX Designs",
             "btn": [
                 "View Full Image"
             ]
@@ -47,6 +51,7 @@
             "liveLink": "https://www.figma.com/file/NOD4AKYdpyJxvehxUU19Nt/portfolio-(Copy)?node-id=0%3A1",
             "codeLink": "./images/portfolio-ui-full.jpg",
             "dataFilter": "ui",
+            "pageTitle":"UI UX Designs",
             "btn": [
                 "View Full Image"
             ]
@@ -57,6 +62,7 @@
             "liveLink": "https://www.figma.com/file/NOD4AKYdpyJxvehxUU19Nt/portfolio-(Copy)?node-id=0%3A1",
             "codeLink": "./images/portfolio-ui-full.jpg",
             "dataFilter": "ui",
+            "pageTitle":"UI UX Designs",
             "btn": [
                 "View Full Image"
             ]
